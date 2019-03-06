@@ -3,15 +3,16 @@
 	<speed>3.2185</speed>
 <group/>
 <size>2</size>
-<Dots>128.075</Dots>
+<Dots>50.335</Dots>
 	<Speed>0.991</Speed>
-	<Size>0</Size>
+	<Size>1.365</Size>
 	<Morph>0</Morph>
-	<Canvas_X>-184</Canvas_X>
-	<Canvas_Y>216</Canvas_Y>
+	<Canvas_X>-176</Canvas_X>
+	<Canvas_Y>296</Canvas_Y>
 <Jump_X>1.55</Jump_X>
 <Move_Z>18.75</Move_Z>
-<Long_Line>0</Long_Line>
-<Wait>4</Wait>
-<Stroke>1.5</Stroke>
+<Long_Line>700</Long_Line>
+<Wait>1.3</Wait>
+<Stroke>1.625</Stroke>
+<Alpha>177.225</Alpha>
 </group>

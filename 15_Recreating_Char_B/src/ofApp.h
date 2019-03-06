@@ -59,6 +59,7 @@ class ofApp : public ofBaseApp{
     ofxFloatSlider guiCanvasY;
     ofxFloatSlider guiWait;
     ofxFloatSlider guiStroke;
+    ofxFloatSlider guiAlpha;
     
 };
 

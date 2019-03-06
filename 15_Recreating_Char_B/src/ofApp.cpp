@@ -1,7 +1,7 @@
 #include "ofApp.h"
 
-int total = 3;
-string m_words[] = {"1", "3", "5", "7"};
+int total = 2;
+string m_words[] = {"1", "2", "3"};
 
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -19,7 +19,8 @@ void ofApp::setup(){
     gui.add(guiCanvasY.setup("Canvas Y", 100, -800, 800));
     gui.add(guiWait.setup("Wait", 5, 0, 20));
     gui.add(guiStroke.setup("Stroke", 1, 0.0, 5));
-
+    gui.add(guiAlpha.setup("Alpha", 100, 0.0, 255));
+    
     font.load("fonts/HelveticaNeueLTStd-Blk.otf", 500, true, true, true);
     m_wordA = m_words[0];
     m_wordB = m_words[1];
@@ -66,7 +67,7 @@ void ofApp::draw(){
             m_morphed = true;
             
             if(m_next == total){
-                m_next = 1;
+                m_next = 0;
             } else {
                 m_next++;
             }
@@ -85,7 +86,7 @@ void ofApp::draw(){
             m_morphed = false;
             
             if(m_next == total){
-                m_next = 1;
+                m_next = 0;
             } else {
                 m_next++;
             }
@@ -132,7 +133,7 @@ void ofApp::draw(){
                 ofVec3f interpolated = current_point.getInterpolated(target, timerMap);
                
                 
-                ofSetColor(255);
+                ofSetColor(200);
                 if (line[p].size() > guiLongLine) {
                     line[p].getVertices().erase(line[p].getVertices().begin());
                 }
@@ -142,12 +143,13 @@ void ofApp::draw(){
                 ofVec3f pos(interpolated.x, -interpolated.y, -m_moveZ);
                 ofVertex(pos);
                 
+                 ofSetColor(255);
                 ofDrawCircle(interpolated.x, -interpolated.y, -m_moveZ, guiSize);
  
             }
         }
     }
-    ofSetColor(0, 0, 0, 100);
+    ofSetColor(0, 0, 0, guiAlpha);
     ofEndShape();
     ofPopMatrix();
     
@@ -176,33 +178,21 @@ vector <vector <vector <ofPoint> > > ofApp::getStringAsPoints3DMatrix(ofTrueType
     }
     // for every character, get its path
     for (int i = 0; i < paths.size(); i++){
-        
-        // for every character break it out to polylines
         vector <ofPolyline> polylines = paths[i].getOutline();
-        
-        // vector to store the points of the current char
         vector <vector <ofPoint> > character_points;
         
-        // for every polyline, resample it
         for (int j = 0; j < polylines.size(); j++){
-            
             vector <ofPoint> line_points;
-            
-            // int num_of_points = ofMap(polylines[j].getPerimeter(), 0, max_perimeter, 0, numOfSamples, true);
             int num_of_points = numOfSamples;
             
             for (int p = 0; p < num_of_points; p++){
-                
                 if (character_points.size() < numOfSamples){
-                    // ofPoint current_point = ofPoint(polylines[j].getPointAtPercent(float(p+1) / num_of_points));
                     ofPoint current_point = ofPoint(polylines[j].getPointAtPercent(ofMap(p, 0, num_of_points, 0, 1)));
-                    
                     line_points.push_back(current_point);
                 }
             }
             character_points.push_back(line_points);
         }
-        // add the char vector to the returned points vector
         returned_points.push_back(character_points);
     }
     return returned_points;
