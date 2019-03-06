@@ -1,0 +1,30 @@
+<group>
+	<Total>1</Total>
+	<Curves>0.3</Curves>
+	<Radius_Min>100</Radius_Min>
+	<Radius_Max>200</Radius_Max>
+	<Distance>20</Distance>
+	<Speed>10</Speed>
+	<Rotation_X>5.2</Rotation_X>
+	<Rotation_Y>12.2</Rotation_Y>
+	<group/>
+	<Pos_X>0</Pos_X>
+	<Pos_Y>0</Pos_Y>
+<Count_Childen>4.8</Count_Childen>
+	<Pos_Extra>1.53061</Pos_Extra>
+	
+	<Dots_Circle>58.3163</Dots_Circle>
+	<Dots_Alpha>0</Dots_Alpha>
+<Color_Diference>6.75</Color_Diference>
+	<Child_Red_Min>87.1684</Child_Red_Min>
+	<Child_Red_Max>167.832</Child_Red_Max>
+	<Child_Green_Min>107.985</Child_Green_Min>
+	<Child_Green_Max>126.199</Child_Green_Max>
+	<Child_Blue_Min>126.199</Child_Blue_Min>
+	<Child_Blue_Max>93.6735</Child_Blue_Max>
+<Distribution_Children>0.825</Distribution_Children>
+<Radius_Child_Min>24.03</Radius_Child_Min>
+	<Radius_Child_Max>34.565</Radius_Child_Max>
+<Pos_Y_Min>12.75</Pos_Y_Min>
+	<Pos_Y_Max>50</Pos_Y_Max>
+</group>

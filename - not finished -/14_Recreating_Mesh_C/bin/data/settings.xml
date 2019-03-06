@@ -1,0 +1,19 @@
+<group>
+	<Count_Circles>95.525</Count_Circles>
+	<Multi>61.695</Multi>
+	<Radius_Min>25</Radius_Min>
+	<Radius_Max>170</Radius_Max>
+	<Noise_Max>0.6094</Noise_Max>
+	<Speed_time>0.0095</Speed_time>
+	<Distance>-30</Distance>
+	<Stroke>0.01</Stroke>
+	<Speed_time_Min>0.765</Speed_time_Min>
+	<Speed_time_Max>0.78</Speed_time_Max>
+<group/>
+<Depth>1</Depth>
+<Curve_Y>0.001</Curve_Y>
+	<Curve_Min>46</Curve_Min>
+	<Curve_Max>100</Curve_Max>
+<Curve_Noise>0.01</Curve_Noise>
+<Curve_Speed>0.01</Curve_Speed>
+</group>

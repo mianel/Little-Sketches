@@ -1,0 +1,11 @@
+<group>
+	<Total_Circles>2</Total_Circles>
+<group/>
+	<Red_min>0.24</Red_min>
+	<Red_max>0.5</Red_max>
+	<Green_min>0.31</Green_min>
+	<Green_max>0.45</Green_max>
+	<Blue_min>0.305</Blue_min>
+	<Blue_max>0.525</Blue_max>
+<Curves>5.65</Curves>
+</group>

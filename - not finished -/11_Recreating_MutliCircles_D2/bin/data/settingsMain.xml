@@ -1,0 +1,28 @@
+<group>
+	<group/>
+<Total>427.645</Total>
+	<Curves>0.0145</Curves>
+	<Radius_Min>103.1</Radius_Min>
+	<Radius_Max>223.15</Radius_Max>
+	<Distance>3.4</Distance>
+	<Speed>86.635</Speed>
+	<Rotation_X>-25</Rotation_X>
+	<Rotation_Y>-25</Rotation_Y>
+	<Pos_X>336.735</Pos_X>
+	<Pos_Y>15.3061</Pos_Y>
+    <Color_Diference>10.7143</Color_Diference>
+    <Color_Background>0</Color_Background>
+    <Speed_Color>40.9031</Speed_Color>
+    <Curves_Color>0.0178571</Curves_Color>
+    <Red_Min>42.9337</Red_Min>
+    <Red_Max>189.949</Red_Max>
+    <Green_Min>65.051</Green_Min>
+    <Green_Max>202.959</Green_Max>
+    <Blue_Min>76.7602</Blue_Min>
+    <Blue_Max>199.056</Blue_Max>
+<Random_Min>7</Random_Min>
+	<Random_Max>33.5</Random_Max>
+<Jump_Main>0</Jump_Main>
+<Speed_Mov_Y>8.97959</Speed_Mov_Y>
+	<Mov_Y>0.0663265</Mov_Y>
+</group>

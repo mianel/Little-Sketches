@@ -1,0 +1,17 @@
+<group>
+	<Rotation_X>2</Rotation_X>
+	<Rotation_Y>8.75</Rotation_Y>
+	<Translate_X>5.625</Translate_X>
+	<Translate_Y>6.125</Translate_Y>
+	<Count_Circles>55.385</Count_Circles>
+	<Count_Childen>0</Count_Childen>
+	<Curves>0.0425</Curves>
+	<Radius_Min>68.8</Radius_Min>
+	<Radius_Max>235.4</Radius_Max>
+	<Distance>1.5095</Distance>
+	<Speed>7.93</Speed>
+	<Pos_X>-45</Pos_X>
+	<Pos_Y>60</Pos_Y>
+	<Pos_Extra>0</Pos_Extra>
+<group/>
+</group>

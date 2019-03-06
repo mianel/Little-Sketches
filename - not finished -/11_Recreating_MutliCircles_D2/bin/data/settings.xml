@@ -1,0 +1,38 @@
+<group>
+	<Rotation_X>5.2</Rotation_X>
+	<Rotation_Y>12.2</Rotation_Y>
+	<Translate_X>255</Translate_X>
+	<Translate_Y>255</Translate_Y>
+	<Count_Circles>16.645</Count_Circles>
+	<Count_Childen>2.14286</Count_Childen>
+	<Curves>0.03</Curves>
+	<Radius_Min>51.65</Radius_Min>
+	<Radius_Max>142.3</Radius_Max>
+	<Distance>9.56</Distance>
+	<Speed>32.68</Speed>
+	<Pos_X>81.6327</Pos_X>
+	<Pos_Y>71.4286</Pos_Y>
+	<Pos_Extra>1.83673</Pos_Extra>
+<group/>
+<Curves_multiply>1.945</Curves_multiply>
+	<Detail_Circle>342</Detail_Circle>
+<Detail_multiply>1</Detail_multiply>
+<Total>322.855</Total>
+<Quality_String>1</Quality_String>
+	<Space_String>1.3</Space_String>
+<guiTransZ_X>0</guiTransZ_X>
+<Center_X>-400</Center_X>
+	<Center_Y>-30</Center_Y>
+<Speed_Color>10</Speed_Color>
+	<Curves_Color>0.0459184</Curves_Color>
+<Red_Min>87.1684</Red_Min>
+<Red_Max>55.9439</Red_Max>
+	<Green_Min>65.051</Green_Min>
+	<Green_Max>101.48</Green_Max>
+	<Blue_Min>79.3622</Blue_Min>
+	<Blue_Max>113.189</Blue_Max>
+<Color_Background>0</Color_Background>
+<Color_Diference>10.5612</Color_Diference>
+<Dots_Circle>58.3163</Dots_Circle>
+<Dots_Alpha>0</Dots_Alpha>
+</group>

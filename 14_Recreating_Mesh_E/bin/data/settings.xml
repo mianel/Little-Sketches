@@ -1,0 +1,30 @@
+<group>
+	<Count_Circles>117.415</Count_Circles>
+	<Radius_Min>35</Radius_Min>
+	<Radius_Max>350</Radius_Max>
+	<Noise_Max>0.7861</Noise_Max>
+	<Speed_time>0.007</Speed_time>
+<group/>
+<Multi>35.825</Multi>
+<Red>20.32</Red>
+	<Green>17.145</Green>
+	<Blue>28.575</Blue>
+	<Red2>20.4</Red2>
+	<Green2>25.5</Green2>
+	<Blue2>28.05</Blue2>
+<Distance>10.425</Distance>
+<Child_Red_Min>0</Child_Red_Min>
+<Stroke>0.01</Stroke>
+<Speed_time_Min>0.639</Speed_time_Min>
+	<Speed_time_Max>0.9</Speed_time_Max>
+<Distance_Radius>14</Distance_Radius>
+<Distance_Z>33.67</Distance_Z>
+<Child_Red_Max>51</Child_Red_Max>
+	<Child_Green_Min>0</Child_Green_Min>
+	<Child_Green_Max>67.575</Child_Green_Max>
+	<Child_Blue_Min>0</Child_Blue_Min>
+	<Child_Blue_Max>80.325</Child_Blue_Max>
+<Frequency>325.675</Frequency>
+	<Amplitude>40.8</Amplitude>
+	<algo>0</algo>
+</group>

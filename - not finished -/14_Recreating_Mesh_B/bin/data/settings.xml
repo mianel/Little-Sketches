@@ -1,0 +1,26 @@
+<group>
+	<Total_dots>25</Total_dots>
+	<Total_int>1</Total_int>
+	<Radius>87</Radius>
+	<Curves_multiply>3</Curves_multiply>
+	<Minimo>-40</Minimo>
+	<Max>200</Max>
+	<Speed_time>0.4</Speed_time>
+	<Speed_time_multi>0.61</Speed_time_multi>
+	<Stroke>0.39</Stroke>
+	<Red>41.275</Red>
+	<Green>43.815</Green>
+	<Blue>47.625</Blue>
+	<Red2>29.325</Red2>
+	<Green2>123.675</Green2>
+	<Blue2>127</Blue2>
+<group/>
+<detail>1</detail>
+<Curves>4.7</Curves>
+	<Red_min>0.2</Red_min>
+	<Red_max>0.4</Red_max>
+	<Green_min>0.4</Green_min>
+	<Green_max>0.5</Green_max>
+	<Blue_min>0.5</Blue_min>
+	<Blue_max>0.6</Blue_max>
+</group>

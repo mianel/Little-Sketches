@@ -1,0 +1,11 @@
+<group>
+	<timer>10</timer>
+	<amplitude>1</amplitude>
+	<space>21.45</space>
+	<radius>200</radius>
+	<total_dots>100</total_dots>
+	<around>28.44</around>
+	<pi>4.7053</pi>
+	<scale>4.085</scale>
+	<spaceScale>39.7</spaceScale>
+</group>

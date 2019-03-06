@@ -7,12 +7,9 @@ void ofApp::setup(){
    // ofEnableSmoothing();
     
     // ------ Gui ------- //
-    gui.setup(); // most of the time you don't need a name
+    gui.setup();
     gui.add(guiTotal.setup("Total dots", 342, 0, 500));
-    //gui.add(guiHigh.setup("High", 100, 0, 500));
-    //gui.add(guiSize.setup("Size", 2, 0, 5));
     gui.add(guiRadius.setup("Radius", 185, 0, 1000));
-  //  gui.add(guiCurveHigh.setup("Curves high", 200, 0.000, 10));
     gui.add(guiMultiply.setup("Curves multiply", 1.945, 1, 10));
     gui.add(guiMin.setup("Minimo", 18, -200, 200));
     gui.add(guiMax.setup("Max", 149, 0, 200));
@@ -57,7 +54,8 @@ void ofApp::draw(){
     ofPushStyle();
     ofNoFill();
         ofBeginShape();
-        ofSetLineWidth(1.5);
+        ofSetLineWidth(1);
+    
             for(int e = 0; e < guiTotal; e++){
                 float x = cos(angle * e) * guiRadius;
                 float y = sin(angle * e) * guiRadius;
@@ -65,14 +63,10 @@ void ofApp::draw(){
                 ofVec3f p = ofVec3f(x, y, z).normalize();
                 float n = ofMap(ofNoise(p.x + time, p.y + time), 0, 1, guiMin, guiMax);
                 p = p*(n*guiMultiply);
-                //ofVertex(p.x, p.y);
-                ofVertex(p.x, p.y);
+                ofVertex(p.x, p.y, e);
             }
         ofEndShape(false);
     ofPopStyle();
-
-
-    
     cam.end();
     
     gui.draw();

@@ -1,0 +1,20 @@
+<group>
+	<Rotation_X>5.2</Rotation_X>
+	<Rotation_Y>12.2</Rotation_Y>
+	<Translate_X>255</Translate_X>
+	<Translate_Y>255</Translate_Y>
+	<Translate_Z_1>2</Translate_Z_1>
+	<Translate_Z_2>0.34</Translate_Z_2>
+<group/>
+	<Radius>100</Radius>
+	<Distance>17.82</Distance>
+<Speed>13.87</Speed>
+<Curves>0.095</Curves>
+	<Radius_Min>61.45</Radius_Min>
+	<Radius_Max>161.9</Radius_Max>
+<Count_Circles>75.5</Count_Circles>
+<Pos_Y>25</Pos_Y>
+	<Pos_X>20</Pos_X>
+<Count_Childen>4.99</Count_Childen>
+	<Pos_Extra>1.065</Pos_Extra>
+</group>

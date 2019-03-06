@@ -1,0 +1,20 @@
+<group>
+	<Count_Circles>153.235</Count_Circles>
+	<Radius_Min>-330</Radius_Min>
+	<Radius_Max>220</Radius_Max>
+	<Noise_Max>0.6094</Noise_Max>
+	<Speed_time>0.011</Speed_time>
+<group/>
+<Multi>8.96</Multi>
+<Red>20.32</Red>
+	<Green>17.145</Green>
+	<Blue>28.575</Blue>
+	<Red2>20.4</Red2>
+	<Green2>25.5</Green2>
+	<Blue2>28.05</Blue2>
+<Distance>17.095</Distance>
+<Child_Red_Min>49.725</Child_Red_Min>
+<Stroke>0.01</Stroke>
+<Speed_time_Min>0.639</Speed_time_Min>
+	<Speed_time_Max>0.9</Speed_time_Max>
+</group>

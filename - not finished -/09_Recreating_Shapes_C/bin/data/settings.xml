@@ -1,0 +1,19 @@
+<group>
+	<Total_dots>59</Total_dots>
+	<Min>220</Min>
+	<Max>187.5</Max>
+	<Frequency>219.27</Frequency>
+	<Amplitude>1</Amplitude>
+	<group/>
+	<Radius_X>5</Radius_X>
+	<Radius_Y>5</Radius_Y>
+	<Speed_time>1.12245</Speed_time>
+	<Speed_smooth>2</Speed_smooth>
+	<Red_min>74.1582</Red_min>
+	<Red_max>255</Red_max>
+<Red>0</Red>
+	<Green>184.745</Green>
+	<Blue>199.056</Blue>
+<Background>255</Background>
+<Radius>87.648</Radius>
+</group>
